@@ -44,7 +44,7 @@ class ProxyFetcher(object):
                     yield "%s:%s" % (ip, port)
                 next_page = _tree.xpath("//div[@class='page']/a[@title='下一页']/@href")
                 target_url = "https://www.zdaye.com/" + next_page[0].strip() if next_page else False
-                sleep(5)
+                sleep(35)
 
     @staticmethod
     def freeProxy02():
