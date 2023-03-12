@@ -63,7 +63,7 @@ PROXY_FETCHER = [
 
 # ############# proxy validator #################
 # 代理验证目标网站
-HTTP_URL = "http://microsoft.com"
+HTTP_URL = "http://httpbin.org"
 
 HTTPS_URL = "https://www.microsoft.com"
 
